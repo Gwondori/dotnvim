@@ -3,5 +3,6 @@
  		"$HOME",
 		"$HOME/.cargo/**",
 		"$HOME/.rustup/**"
-	],
+  ],
+  "svelte.enable-ts-plugin": false,
 }
