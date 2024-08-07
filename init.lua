@@ -1,1 +1,6 @@
+require("plugins.plugins")
+require("plugins.configs.treesitter")
+require("plugins.configs.nvimtree")
+require("plugins.configs.coc")
+require("colorschemes.cyberdream")
 require("gwondori")
