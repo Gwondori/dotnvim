@@ -14,7 +14,7 @@ cmd("set mouse=a")
 cmd("set tabstop=4")
 cmd("set shiftwidth=4")
 cmd("set softtabstop=0")
-cmd("set noexpandtab")
+cmd("set expandtab")
 
 cmd("set laststatus=2")
 cmd("set hlsearch")
