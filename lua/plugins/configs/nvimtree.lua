@@ -12,6 +12,7 @@ local function open_nvim_tree(data)
 	require("nvim-tree.api").tree.toggle({ focus = false, find_file = true, })
 end
 
+-- When start nvim, then run this(NvimTree)!
 vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })
 
 -- NvimTree Config Start

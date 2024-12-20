@@ -1,6 +1,7 @@
 local cmd = vim.cmd
 
-vim.opt.clipboard="unnamedplus"
+vim.g.mapleader = ','
+vim.opt.clipboard:append { 'unnamed', 'unnamedplus' }
 vim.opt.termguicolors = true
 
 cmd("set encoding=utf-8")
