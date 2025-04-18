@@ -4,6 +4,7 @@ local Plug = vim.fn['plug#']
 
 vim.call('plug#begin')
 
+Plug("github/copilot.vim")
 Plug("nvim-treesitter/nvim-treesitter", { ['do'] = function()
 	vim.call("TSUpdate")
 end, ["tag"] = "v0.9.2" })
